@@ -3,8 +3,8 @@
 
 # Variables
 
-shape_w = int(input("Enter  width \n"))  # rectangle width
-shape_l = int(input("Enter length \n"))  # rectangle length
+shape_w = int(input("Enter  width \n"))  # shape  width
+shape_l = int(input("Enter length \n"))  # shape  length
 
 shape_a = shape_w * shape_l  # calculate area
 
