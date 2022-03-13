@@ -1,4 +1,4 @@
-# Calculate area of a shape
+# Calculate area and perimeter of a shape
 
 
 # Variables
