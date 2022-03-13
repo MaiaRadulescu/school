@@ -4,13 +4,13 @@
 # Variables
 
 shape_w = int(input("Enter  width \n"))  # rectangle width
-shape_h = int(input("Enter height \n"))  # rectangle height
+shape_l = int(input("Enter length \n"))  # rectangle length
 
-shape_a = shape_w * shape_h  # calculate area
+shape_a = shape_w * shape_l  # calculate area
 
-shape_p = (shape_h + shape_w) * 2  # calculate perimeter
+shape_p = (shape_l + shape_w) * 2  # calculate perimeter
 
-if shape_w == shape_h:  # check is the shape is a square
-    print(f'This is a square and area is {shape_a}')
-elif shape_w != shape_h:  # check if the shape is a rectangle
-    print(f'This is a rectangle and are is {shape_a}')
+if shape_w == shape_l:  # check is the shape is a square
+    print(f'This is a square and area is {shape_a} and perimeter is {shape_p}')
+elif shape_w != shape_l:  # check if the shape is a rectangle
+    print(f'This is a rectangle and are is {shape_a} and perimeter is {shape_p}')
